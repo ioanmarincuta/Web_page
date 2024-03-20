@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+    <!--here the CSS code starts-->
+    <style>
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgreen;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+h1 {
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.image {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.image img {
+  width: 50%;
+  border-radius: 50%;
+}
+h2 {
+  margin-top: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+.icon-envelope:before {
+  content: "\2709";
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+    </style>
+    <!--here the CSS code ends-->
+    <!--here the JS code starts-->
+    <script>
+    </script>
+    <!--here the JS code ends-->
+  </head>
+  <body>
+    <header>
+      <h1>Hi! My name is John</h1>
+    </header>
+    <main>
+      <div class="image">
+        <img src="images/profile.jpg" alt="Profile Picture">
+      </div>
+      <div class="hobby">
+        <h2>My hobbies are:</h2>
+        <ul>
+          <li><img src="images/pc.jpg" alt="Coding Image">Coding</li>
+          <li><img src="images/running.jpg" alt="Running Image">Running</li>
+          <li><img src="images/tennis.jpg" alt="Tennis Image">Playing tennis</li>
+
+        </ul>
+      </div>
+    </div>
+    <p>If you have any enquiries, feel free to send me an email</p>
+    </main>
+    <footer>
+      <a href="mailto:ioanmarincuta@gmail.com"><i class="icon-envelope"></i></a>
+    </footer>
+  </body>
+</html>
